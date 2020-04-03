@@ -1,0 +1,28 @@
+body {
+background-color: cornsilk;
+}
+.navbar ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 50px;
+}
+.navbar li{
+        display: inline-block;
+ }
+h1 {
+    color: black;
+    text-align: left;
+        
+ }
+.photo{
+    float:right;
+}
+.icons{
+    margin-top: 40%;
+}
+
+
+    

@@ -1,0 +1,72 @@
+body{
+
+}
+
+.navbar ul{
+    list-style: none;
+    background: beige;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.navbar li{
+    display: inline-block;
+}
+h1 {
+    color: purple;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    border-color: royalblue;
+    margin-left: 200px;
+    padding: 100px;
+    background-color: silver;
+    border: circle;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.buttons {
+    font-size: larger;
+}
+.icons{
+    display: flex;
+    padding: 20px;justify-content: center;
+
+}
+.btn {
+    border: block;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 200px;
+    border-color: black;
+   
+}
+.Education{
+    color: aqua;
+}
+.Education:hover {
+    background-color: beige;
+    color: burlywood;
+}
+.interests {
+    color: cadetblue;
+}
+.interests:hover {
+    background: black;
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.nav ul{
+    margin: 0;
+    padding: 0;
+    background: springgreen;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    background: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.navbar li{
+    display: inline-block;
+}
+.interests{
+   color: white;
+   margin-left: 200px;
+   font-size: 30px; 
+}
+body{
+    background-color: blanchedalmond;
+}
