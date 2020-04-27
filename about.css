@@ -1,45 +1,50 @@
 body{
-
+background-color: peachpuff;
 }
-
 .navbar ul{
     list-style: none;
-    background: beige;
     padding: 0;
     margin: 0;
-    text-align: left;
-    font-size: 30px;
-    margin-top: 50px;
+    text-align: right;
+    font-size: 23px;
+    margin-top: 17px;
+    background-color: cornsilk;
 }
 .navbar li{
     display: inline-block;
 }
+.navbar a{
+    text-decoration: none;
+    display: block;
+    
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+
+}
+.navbar a:hover{
+    background:palevioletred
+}
 h1 {
     color: purple;
     text-align: center;
-}
-.btn {
-    display: inline-block;
-    border-color: royalblue;
-    margin-left: 200px;
-    padding: 100px;
-    background-color: silver;
-    border: circle;
-    cursor: pointer;
-    font-size: 20px;
 
 }
-.buttons {
-    font-size: larger;
+.buttons{
+    margin-top: 10%;
 }
 .icons{
     display: flex;
-    padding: 20px;justify-content: center;
+    padding: 20px;
+    justify-content: center;
 
 }
 .btn {
     border: block;
-    background-color: inherit;
+    background-color: violet;
     padding: 14px 28px;
     font-size: 30px;
     cursor: pointer;
@@ -59,8 +64,8 @@ h1 {
     color: cadetblue;
 }
 .interests:hover {
-    background: black;
-    color:whitesmoke;
+    background-color: beige;
+    color: whitesmoke;
 }
 
 

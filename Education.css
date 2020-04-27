@@ -3,12 +3,30 @@
     padding: 0;
     background: springgreen;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .nav li{
     display: inline-block;
 }
+.nav a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+.active, .nav a:hover{
+    background: grey;
+}
+.navbar a:hover{
+    background: gray;
+}
+
 
 h1 {
     color: black;
@@ -17,11 +35,44 @@ h1 {
 
 .navbar ul {
     list-style: none;
-    background: gray;
+    background: cornsilk;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: right;
 }
 .navbar li{
     display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    
+}
+.active, .navbar a:hover{
+    background: green;
+}
+.navbar a:hover{
+    background: gray
+}
+
+.Education {
+    font-style: normal;
+    font-weight: bold;
+    text-align:left;
+    color: black;
+    margin-left: 40px;
+}
+
+body{
+    background-image: url(art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }

@@ -1,24 +1,123 @@
-
-
-.form{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
+body{
+    background-color: cadetblue;
 }
-.form-control{
-    width: 600px;
-    background: transparent;
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 23px;
+    margin-top: 17px;
+    background-color: cornsilk;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar a{
+ text-decoration: none;
+ display: block;
+ 
+ text-decoration: none;
+ color: black;
+ width: 100px;
+ padding: 25px;
+ font-weight: bold;
+ font-family:sans-serif;
+
+}
+.active, .navbar a:hover{
+ background:red;
+}
+
+.navbar a:hover{
+ background: palevioletred;
+ width:100px;
+}
+
+h1{
+    text-align:center;
+}
+h2{
+    margin-left: 5%;
+}
+.address{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.email{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.number{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.icons{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.contact-form {
+    width: 55%;
+    max-width: 300px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: 1%;
+    left:75%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+ .txtb{
+     border: 1px solid gray;
+     margin: 8px 0;
+     padding: 12px 18px;
+     border-radius: 8px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input, .txtb textarea{
+    width: 100%;
     border: none;
+    background: none;
     outline: none;
-    border-bottom: 1px solid black;
-    color: beige;
-    font-size: 20px;
-    margin-top: 18px;
+    font-size: 18px;
+    margin-top: 6px;
+}
 
-}
-input{
-    height: 45px;
-}
-form .submit::hover{
-    background-color: red;
+.btn{
+    display: block;
+    background: rebeccapurple;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
     cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+.Directions:Hover{
+    background-color: rosybrown;
+    color: white;
+}
+.Adress {
+    margin-left: 20px;
+    color: white;
 }

@@ -1,28 +1,76 @@
-body {
-background-color: cornsilk;
+body{
+background-image: url(blue.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
+
 .navbar ul{
         list-style: none;
         padding: 0;
         margin: 0;
-        text-align: left;
-        font-size: 30px;
-        margin-top: 50px;
+        text-align: right;
+        font-size: 23px;
+        margin-top: 17px;
+        background-color: cornsilk;
 }
 .navbar li{
         display: inline-block;
- }
-h1 {
-    color: black;
-    text-align: left;
         
  }
+ .navbar a{
+     text-decoration: none;
+     display: block;
+     
+     text-decoration: none;
+     color: black;
+     width: 100px;
+     padding: 25px;
+     font-weight: bold;
+     font-family:sans-serif;
+
+ }
+ .active, .navbar a:hover{
+     background:red;
+ }
+
+ .navbar a:hover{
+     background: palevioletred;
+     width:100px;
+ }
+ .icons{
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     margin-top: 40%;
+    
+    }
+
 .photo{
     float:right;
+    width:700px;
+    margin:50px;
+    border-radius: 50%;
+    
+
 }
-.icons{
-    margin-top: 40%;
+.photo img {
+  border-radius: 50%;  
+  
 }
+h1{
+    text-align: center;
+    margin-right: 20%;
+    color: black;
+    font-size: 50px;
+    margin-top:25%;
+}
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20%;
+}
+
 
 
     

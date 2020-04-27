@@ -1,35 +1,73 @@
+body{
+    background-image: url(fly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nav ul{
     margin: 0;
     padding: 0;
     background: springgreen;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .nav li{
     display: inline-block;
 }
-
-h1 {
+.nav a{
+    text-decoration: none;
     color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
     text-align: center;
+}
+.active, .nav a:hover{
+    background: grey;
+}
+.nav a:hover{
+    background: gray;
+}
+h1{
+    text-align: center;
+
 }
 
 .navbar ul {
     list-style: none;
-    background: gray;
+    background: cornsilk;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: right;
 }
 .navbar li{
     display: inline-block;
 }
-.interests{
-   color: white;
-   margin-left: 200px;
-   font-size: 30px; 
+.navbar a{
+    text-decoration: none;
+    color:black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    
 }
-body{
-    background-color: blanchedalmond;
+.active, .navbar a:hover{
+    background: green;
+}
+.navbar a:hover{
+    background: gray
+}
+.interests{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+    color: black;
 }

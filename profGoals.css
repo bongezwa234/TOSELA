@@ -3,12 +3,30 @@
     padding: 0;
     background: springgreen;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .nav li{
     display: inline-block;
 }
+.nav a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: left;
+}
+.active, .nav a:hover{
+    background: grey;
+}
+.navbar a:hover{
+    background: gray;
+}
+
 
 h1 {
     color: black;
@@ -20,8 +38,35 @@ h1 {
     background: gray;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: right;
 }
 .navbar li{
     display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: right;
+    
+}
+.active, .navbar a:hover{
+    background: green;
+}
+.navbar a:hover{
+    background: cornsilk;
+}
+.profGoals{ 
+    font-size: 30px;
+    text-align: right;
+}
+body{
+    background-image: url(goals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
